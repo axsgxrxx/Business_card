@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>display</title>
+        <style>
+            span{
+                padding: 12.5px;
+                font-size:small;
+            }
+            .name{
+                letter-spacing: 2em;
+            }
+            div{
+                display: inline-block;
+                border-style:solid ;
+                border-color: black;
+                border-width: 2px;
+
+                width: 300px;
+                height: 150px;
+                
+            }
+            .one{
+                background-image: url(kmh.png);
+                background-size: 100px;
+                background-repeat: no-repeat;
+                background-position: right bottom;
+            }
+            .two{
+                background-image: url(jjang.png);
+                background-size: 100px;
+                background-repeat: no-repeat;
+                background-position: right center;
+            }
+            .three{
+                background-image: url(mario.jpg);
+                background-size: 100px;
+                background-repeat: no-repeat;
+                background-position: right top;
+            }
+            span{
+                display: block;
+            }
+            #o{
+                text-shadow: 0px 0px 5px blue;
+            }
+            #t{
+                color: green;
+                text-shadow: 2px 2px 4px black;
+            }
+            #th{
+                text-shadow: 1px 5px 2px skyblue;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="one"><span>이름 : <a class="name">김민혁</a></span><span>소속 :서울 아이티고등학교</span><span>특징 : <a id="o">c언어 잘함</a></span></div>
+        <div class="two"><span>이름 : <a class="name">김민혁</a></span><span>소속 :김양식</span><span>특징 : <a id="t">요리</a> 개잘함</span></div>
+        <div class="three"><span>이름 : <a class="name">김민혁</a></span><span>소속 :하버드 대학교</span><span>특징 : <a id="th">공부</a> 개잘함</span></div>
+    </body>
+</html>
